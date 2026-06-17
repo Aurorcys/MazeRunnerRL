@@ -5,7 +5,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def grid_reward(prev_pos, curr_pos, goal_pos, obstacles, visited):
-    #shut the fuck up
     reward = 0
     if curr_pos == goal_pos:
         reward += 10
